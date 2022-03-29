@@ -11,6 +11,8 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --white-color: #ffffff;
+  --primary-bg-color: #e5e5e5;
+  --footer-color: #2f303a;
 }
 
 body {
@@ -61,6 +63,7 @@ ul {
   color: var(--primary-text-color);
   letter-spacing: 0.02em;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .auth-nav .link:hover,
@@ -70,7 +73,7 @@ ul {
 
 /* hero */
 .hero {
-  background-color: #e5e5e5;
+  background-color: var(--primary-bg-color);
   letter-spacing: 0.06em;
 }
 .hero-title {
@@ -134,7 +137,7 @@ ul {
 
 /* footer */
 .address {
-  background-color: #2f303a;
+  background-color: var(--footer-color);
 }
 .address-list .link {
   color: rgba(255, 255, 255, 0.6);
